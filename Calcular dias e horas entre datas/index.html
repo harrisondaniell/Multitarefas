@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Calcular dias entre datas</h1>
+  <p>
+    <label for="inDate">Data Inicial:</label>
+    <input type="date" id="inDate">
+    <label for="inFinalDate">Data Final:</label>
+    <input type="date" id="inFinalDate">
+    <button id="btnCalcular">Calcular</button>
+  </p>
+
+  <p>
+    Total de dias:
+    <input type="text" id="outDays" readonly>
+  </p>
+  <p>
+    Total de horas:
+    <input type="text" id="outHours" readonly>
+  </p>
+  <p>
+    Total de minutos:
+    <input type="text" id="outMinutes" readonly>
+  </p>
+  <p>
+    Total de segundos:
+    <input type="text" id="outSeconds" readonly>
+  </p>
+  <h3 id="outWarning"></h3>
+</body>
+
+</html>
